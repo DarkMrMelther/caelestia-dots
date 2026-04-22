@@ -43,3 +43,6 @@ if status is-interactive
     # Custom fish config
     source ~/.config/caelestia/user-config.fish 2> /dev/null
 end
+
+# uv
+fish_add_path "/home/melther/.local/share/../bin"

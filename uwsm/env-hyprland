@@ -12,3 +12,5 @@ export XDG_SESSION_DESKTOP=Hyprland
 
 # ############# Others #############
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+export AQ_DRM_DEVICES="/dev/dri/card2:/dev/dri/card1"
