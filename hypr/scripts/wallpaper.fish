@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
-if test -z (pidof linux-wallpaperengine)
+if test -z (pidof awww-daemon)
     waypaper --restore
 else
-    killall linux-wallpaperengine
+    awww kill
 end
